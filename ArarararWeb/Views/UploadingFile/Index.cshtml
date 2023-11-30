@@ -1,0 +1,15 @@
+﻿@model List<ArarararWeb.DataModels.FileItem>
+
+@{
+    ViewData["Title"] = "Список файлов";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<ul>
+    @foreach (var file in Model)
+    {
+        <img src="@Url.Action("GetImage", new { id = file.Id })" alt="@file.FileName" />
+        <li>@file.FileName - @file.UploadDate.ToString("yyyy-MM-dd HH:mm:ss")</li>
+    }
+</ul>
