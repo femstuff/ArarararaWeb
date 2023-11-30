@@ -3,17 +3,84 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">AR Museum</h1>
+    <p>Посмотри на экспонаты не выходя из дома </p>
 </div>
 
 <form asp-controller="FileUpload" asp-action="UploadFile" method="post" enctype="multipart/form-data">
     <div class="form-group">
         <input type="file" name="file" />
     </div>
-    <button type="submit" class="btn btn-primary">Upload File</button>
+    <button type="submit" class="btn btn-primary">Загрузить файл</button>
 </form>
 
 <form asp-controller="UploadingFile" asp-action="Index" method="post">
-    <button type="submit">Все файлы из базы данных</button>
+    <button type="submit" class=" allFilesFromDB btn-primary">Все файлы из базы данных</button>
 </form>
+<style>
+    .allFilesFromDB
+    {
+        font-family: Arial;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 5px 100px;
+        background-color: transparent;
+        color: black;
+        border-radius: 10em;
+        border: rgb(255 255 255/ .4) 3px solid;
+        outline: none;
+        font-size: calc(var(--index)*2);
+        margin-top: calc(var(--index)*6);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .btn 
+    {
+        font-family: Arial;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 5px 100px;
+        background-color: transparent;
+        color: black;
+        border-radius: 10em;
+        border: rgb(255 255 255/ .4) 3px solid;
+        outline: none;
+        font-size: calc(var(--index)*2);
+        margin-top: calc(var(--index)*6);
+        position: absolute;
+        top: 30%;
+        left: 45%;
+        transform: translate(-30%, -45%);
+
+    }
+
+    .form-group
+    {
+        font-family: Arial;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 5px 100px;
+        background-color: transparent;
+        color: black;
+        border-radius: 10em;
+        border: rgb(255 255 255/ .4) 3px solid;
+        outline: none;
+        font-size: calc(var(--index)*2);
+        margin-top: calc(var(--index)*6);
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        transform: translate(-40%, -45%);
+
+    }
+    .file
+    {
+        background-color: transparent;
+
+    }
+   
+    
+</style>

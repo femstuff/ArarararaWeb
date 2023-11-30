@@ -20,3 +20,12 @@ html {
 body {
   margin-bottom: 60px;
 }
+body {
+    margin-bottom: 60px;
+    background-color: black;
+    color: aliceblue;
+    font-family: kamerik-3d;
+    background-image: url(https://w.forfun.com/fetch/2a/2aae0188cf630c8b17445039c68f1605.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

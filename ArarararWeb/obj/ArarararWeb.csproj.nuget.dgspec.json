@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tihonsavenkov/Projects/ArarararWeb/ArarararWeb.csproj": {}
+    "C:\\Users\\farit\\OneDrive\\Рабочий стол\\not last\\ArarararaWeb\\ArarararWeb\\ArarararWeb.csproj": {}
   },
   "projects": {
-    "/Users/tihonsavenkov/Projects/ArarararWeb/ArarararWeb.csproj": {
+    "C:\\Users\\farit\\OneDrive\\Рабочий стол\\not last\\ArarararaWeb\\ArarararWeb\\ArarararWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tihonsavenkov/Projects/ArarararWeb/ArarararWeb.csproj",
+        "projectUniqueName": "C:\\Users\\farit\\OneDrive\\Рабочий стол\\not last\\ArarararaWeb\\ArarararWeb\\ArarararWeb.csproj",
         "projectName": "ArarararWeb",
-        "projectPath": "/Users/tihonsavenkov/Projects/ArarararWeb/ArarararWeb.csproj",
-        "packagesPath": "/Users/tihonsavenkov/.nuget/packages/",
-        "outputPath": "/Users/tihonsavenkov/Projects/ArarararWeb/obj/",
+        "projectPath": "C:\\Users\\farit\\OneDrive\\Рабочий стол\\not last\\ArarararaWeb\\ArarararWeb\\ArarararWeb.csproj",
+        "packagesPath": "C:\\Users\\farit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\farit\\OneDrive\\Рабочий стол\\not last\\ArarararaWeb\\ArarararWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tihonsavenkov/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\farit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -87,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
